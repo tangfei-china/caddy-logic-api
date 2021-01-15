@@ -1,0 +1,11 @@
+{
+  http_port     9080
+  https_port    9443
+}
+
+:9080 {
+  route {
+    logic_api disabled=no tag="jira" url="http://172.26.5.164:8888/api/authSite/checkAuthSite" redirect="http://www.baidu.com"
+    reverse_proxy 172.26.1.51:8080
+  }
+}
