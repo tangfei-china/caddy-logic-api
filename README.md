@@ -7,7 +7,7 @@
 > 源码编译安装
 
 ```sh
-git clone xxxxxx
+git clone https://github.com/tangfei-china/caddy-logic-api
 go mod tidy
 CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build caddy.go
 ```
