@@ -68,6 +68,6 @@ redirect 是失败后的一个跳转地址：
 ./caddy start
 ```
 
-## 参考资料
+## 参考开源项目
 
 https://github.com/greenpau/caddy-trace
